@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moja stranica</title>
+  </head>
+  <body>
+    <h1>Unesite Vase podatke</h1>
+    <form action="./index.html" target="_blank">
+      <fieldset>
+        <legend>Personal info</legend>
+        <label for="Username">Username:</label>
+        <input
+          type="text"
+          name="Username"
+          id="Username"
+          placeholder="Username"
+        />
+        <br />
+        <br />
+        <label for="password">Password</label>
+        <input
+          type="text"
+          name="Password"
+          id="Password"
+          placeholder="Password"
+        />
+        <br />
+        <br />
+        <label for="datum">Datum rodjenja</label>
+        <input
+          type="date"
+          name="datum"
+          id="datum"
+          min="1920-01-01"
+          max="2022-01-01"
+        />
+        <br />
+        <br />
+        <p>Odaberite pol:</p>
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" value="gender" />
+        <br />
+        <br />
+        <label for="Female">Female</label>
+        <input type="radio" name="gender" value="gender" />
+        <br />
+        <br />
+        <label for="phone">Phone:</label>
+        <input type="tel" name="phone" placeholder="555-5-555-555" required />
+        />
+        <br />
+        <br />
+        <label for="color">Favorite color:</label>
+        <select name="color" id="color">
+          <option value="color" name="color">crvena</option>
+          <option value="color" name="color">zelena</option>
+          <option value="color" name="color">plava</option>
+          <option value="other" name="other">other</option>
+        </select>
+        <br />
+        <br />
+        <label for="status">Status</label>
+        <select name="status" id="status">
+          <option value="ucenik"></option>
+          <option value="radnik"></option>
+        </select>
+        <br />
+        <br />
+        <label for="submit">Prijava</label>
+      </fieldset>
+      <br />
+      <hr />
+      <fieldset>
+        <legend style="color: blue; background-color: bisque">
+          Ispisite vasu biografija
+        </legend>
+        <textarea
+          maxlength="100"
+          name="biografija"
+          id="biografija"
+          cols="30"
+          rows="10"
+          placeholder="Type your message here"
+        ></textarea>
+      </fieldset>
+      <hr />
+      <button type="reset">RESETUJ</button>
+      <button type="submit">POTVRDI</button>
+    </form>
+  </body>
+</html>

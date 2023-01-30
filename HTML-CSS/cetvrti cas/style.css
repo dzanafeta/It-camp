@@ -1,0 +1,21 @@
+.main {
+  border-radius: 25px;
+  border-style: dotted;
+}
+
+table,
+tr,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  border-style: dotted;
+}
+
+body {
+  background-color: rgb(255, 186, 149);
+}
+
+table {
+  border-radius: 25px;
+  box-shadow: 25px 25px 25px rgb(185, 120, 77);
+}

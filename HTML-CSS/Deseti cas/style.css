@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(35, 146, 87);
+}
+
+.first {
+  background-image: url(https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg);
+  height: 300px;
+  background-repeat: no-repeat;
+  /* background-size: 400px 200px; prva vrednost se odnosi na sirinu, druga na visinu */
+  /* background-size: 100%; */
+  /* background size: cover; */
+  background-image: contain;
+}
+
+ul {
+  margin: auto;
+  width: 500px;
+  list-style-position: inside;
+}
