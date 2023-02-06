@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background-color: aquamarine;
+  width: 600px;
+  height: 400px;
+}
+
+/* + se primenjuje na prvi HTML element nakon odredjenog (.main) */
+.main + p {
+  background-color: bisque;
+}
+
+/*  p se odnosi na onaj paragraf koji je direktni child od odredjenog taga(. main) */
+.main > p {
+  background-color: brown;
+}
