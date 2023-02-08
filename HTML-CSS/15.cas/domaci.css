@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box1 {
+  /* padding:  50% 25% 10%; */
+  margin-top: 250px;
+  margin-left: 250px;
+  font-size: 28px;
+  width: 300px;
+  height: 250px;
+  color: rgb(86, 86, 237);
+  float: left;
+  background-color: brown;
+}
+.box1 p {
+  color: black;
+}
+
+.box2 {
+  /* padding: 15% 10% 25% 60%; */
+  border-radius: 1px;
+  width: 300px;
+  height: 250px;
+  float: right;
+  background-color: aqua;
+}
+.box2right {
+  float: right;
+}
