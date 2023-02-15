@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.parent {
+  margin: auto;
+  width: 60%;
+  background-color: rgb(49, 191, 120);
+  height: 80vh;
+  display: flex;
+  /* flex-direction: row; defaultna vrednost */
+  /* flex-direction: column; */
+
+  /* Horizontalno poravnjanje: */
+  /* justify-content: flex-start; defaultna vrednost horizontalnog poravnjanja */
+  /* justify-content: center; */
+  /* justify-content: flex-end; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  justify-content: space-evenly;
+  align-items: center;
+  /* Vertikalno poravnjanje:; */
+  /* align-items: flex-start; */
+  /* flex-start; defaultna vrednost vertikalnog poravnjanj */
+  /* align-items: flex-end; */
+}
+
+.box {
+  width: 150px;
+  height: 120px;
+  background-color: rgb(107, 194, 211);
+}
+
+.first {
+  background-color: brown;
+}
+
+.second {
+  background-color: rgb(214, 231, 66);
+}
+
+.third {
+  background-color: rgb(34, 235, 41);
+}
+
+.box:nth-of-type(1) {
+  width: 150px;
+  height: 120px;
+  background-color: rgb(187, 103, 174);
+  align-self: flex-start;
+}
+
+.box:nth-of-type(2) {
+  width: 150px;
+  height: 120px;
+  background-color: rgb(144, 213, 197);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box:nth-of-type(3) {
+  width: 150px;
+  height: 120px;
+  background-color: rgb(153, 171, 49);
+  align-self: flex-end;
+}
