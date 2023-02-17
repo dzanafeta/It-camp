@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent {
+  margin: auto;
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+  margin-top: 70px;
+}
+
+.child {
+  width: 40%;
+}
+
+button {
+  width: 100px;
+  border-radius: 20px;
+}

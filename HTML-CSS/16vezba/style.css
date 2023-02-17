@@ -26,6 +26,10 @@ body {
   padding: 5px;
   text-align: left;
   font-family: "Rubik", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .box2 {
@@ -62,4 +66,8 @@ h1 {
   margin-bottom: 30px;
   margin-left: 50px;
   color: rgb(121, 56, 120);
+}
+
+.icon {
+  margin-bottom: 70px;
 }
