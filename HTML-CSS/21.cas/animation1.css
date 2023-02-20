@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  margin: auto;
+  background-color: aqua;
+  width: 500px;
+  height: 500px;
+}
+
+.child {
+  width: 50%;
+  height: 50%;
+  background-color: coral;
+  /* border-radius: 50%; */
+
+  transition: all 1s cubic-bezier();
+  transition: transform 1s ease-in-out 2s;
+  /* transition-property: tranform na koji se property odnosi; */
+  /* transition-duration :1s trajanje transformacije; */
+  /* transition-timing-function: ease-in-out ; funkcija po kojoj se vrsi transormacija */
+  /* transition-delay: 2s; odlaganje trasformacije */
+}
+
+.parent:hover .child {
+  /* transform: translateX(100%); pomeranje po X osi */
+  /* transform: translateY(100%) pomeranje po Y osi  */
+  transform: translate(100%, 100%);
+  /* transition: transform 0.5s ease-in-out; */
+}
+
+.child:hover {
+  transform: scale(1.2);
+  /* jedna vrednost povecava*(smanjuje) element na osnovu untete vrednsoti propocionalno po c i po y osi */
+  /* transform: scale(0.5, 1.5); */
+  /* Ako imamo dva vrednosti prva se odnosi na sirinu druga na visinu */
+}
