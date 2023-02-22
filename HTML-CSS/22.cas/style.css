@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  margin: auto;
+  background-color: aquamarine;
+  width: 500px;
+  height: 500px;
+}
+
+.child {
+  width: 50%;
+  height: 50%;
+  background-color: brown;
+}
+
+.parent:hover .child {
+  /* background-color: cadetblue; */
+  animation: top-to-bottom 1.3s ease-in forwards infinite alternate;
+  /* animation: top-to-bottom 1.3s ease-in 0.5 forwards 3 infinite;
+  animation-play-state: paused; */
+}
+
+@keyframes top-to-bottom {
+  0% {
+    transform: translateX(0);
+  }
+  33% {
+    transform: translateX(100%);
+    background: coral;
+  }
+
+  50% {
+    transform: translate(100%);
+    background: yellow;
+  }
+
+  66% {
+    transform: translate(100%);
+    background: rgb(255, 0, 183);
+  }
+
+  100% {
+    transform: translate(0%, 100%);
+    background: gold;
+  }
+}

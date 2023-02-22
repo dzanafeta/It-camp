@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rajdhani", sans-serif;
+  background-color: rgb(250, 250, 250);
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(23, 23, 201);
+  color: white;
+}
+
+.header-main {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* h1 {
+  padding-top: 15px;
+  padding-left: 15px;
+  display: flex;
+  justify-items: flex-start;
+} */
+
+header a {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  padding: 7px;
+  margin: 15px;
+  text-decoration: none;
+  display: flex;
+  justify-items: center;
+}
+
+.first {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  display: flex;
+}
+
+/* button {
+  display: flex;
+  justify-items: flex-end; */
+
+.parent {
+  width: 80%;
+  height: 600px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box {
+  width: 250px;
+  height: 500px;
+  background-color: rgb(231, 234, 234);
+  text-align: center;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+/* .box-style1 {
+  text-align: center;
+} */
+
+button {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 15px;
+  border: none;
+}
+
+.box1 {
+  padding: 30px;
+}
+
+h2 {
+  font-size: 46px;
+  margin-top: 30px;
+}
+
+.box3 {
+  border: 1px black;
+}
+ul {
+  list-style-position: inside;
+}
