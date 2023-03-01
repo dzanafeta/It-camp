@@ -55,7 +55,7 @@ header button {
   margin-left: 160px;
 }
 
-.box {
+.boxx {
   width: 210px;
   height: 200px;
   text-align: center;
@@ -108,4 +108,61 @@ img {
 
   /* top: 50px; */
   /* right: 0; */
+}
+
+.first {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  display: flex;
+}
+
+/* button {
+  display: flex;
+  justify-items: flex-end; */
+
+.parent {
+  width: 80%;
+  height: 600px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box {
+  width: 250px;
+  height: 500px;
+  background-color: rgb(231, 234, 234);
+  text-align: center;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+/* .box-style1 {
+  text-align: center;
+} */
+
+button {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 15px;
+  border: none;
+}
+
+.box1 {
+  padding: 30px;
+}
+
+h2 {
+  font-size: 46px;
+  margin-top: 30px;
+}
+
+.box3 {
+  border: 1px black;
+}
+ul {
+  list-style-position: inside;
 }
