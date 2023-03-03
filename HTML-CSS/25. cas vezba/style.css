@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Dosis", sans-serif;
+}
+
+nav {
+  font-size: 14px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.list ul li {
+  list-style: none;
+  text-decoration: none;
+  justify-content: left;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.list ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.list ul li a :hover {
+  color: yellow;
+  transition: 0.3s;
+}
+
+.fa {
+  margin: 25px 10%;
+  justify-content: space-between;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+}
+
+.icons {
+  display: inline-block;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+button {
+  background-color: white;
+  border-radius: 5px;
+  border: 3px grey;
+  color: grey;
+}
+
+h1 {
+  font-size: 54px;
+  font-family: "Abril Fatface", cursive;
+  color: rgb(46, 46, 46);
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.grid-item-1 {
+  background-color: cornflowerblue;
+}
+
+.grid-item-2 {
+  background-color: bisque;
+}
+
+.grid-item-3 {
+  background-color: rgb(173, 107, 26);
+}
+
+.grid-item-4 {
+  background-color: rgb(255, 196, 230);
+}
+
+.grid-item-5 {
+  background-color: rgb(218, 255, 196);
+}
+
+.grid-item-6 {
+  background-color: rgb(204, 53, 63);
+}
