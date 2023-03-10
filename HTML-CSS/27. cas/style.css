@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Tilt Warp";
+}
+
+li {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.special-item a {
+  color: rgb(222, 142, 57);
+}
+
+a {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+}
+
+li :hover {
+  color: rgb(222, 142, 57) 3, 223, 81;
+}
+
+.main-head {
+  background-color: rgba(0, 0, 0, 0.95);
+
+  color: white;
+  position: sticky;
+  top: 0px;
+}
+
+.logo {
+  font-size: 32px;
+}
+
+button {
+  border-radius: 5px;
+  height: 40px;
+  width: 130px;
+  border-color: rgb(222, 142, 57);
+  outline: none;
+  text-decoration: solid;
+  background-color: transparent;
+  color: white;
+}
+
+nav {
+  height: 70px;
+  display: flex;
+  padding: 2rem;
+  width: 90%;
+  background-color: transparent;
+  justify-content: center;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+}
+
+.hero {
+  background-image: linear-gradient(black, transparent),
+    url(.//pexels-jane-doan-1024248\ copy.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  padding-top: 90px;
+  font-size: 60px;
+}
+
+h3 {
+  padding-top: 10px;
+  /* padding-bottom: 80px; */
+  font-size: 22px;
+}
+
+.cards {
+  padding-top: 90px;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  width: 170px;
+  height: 170px;
+  padding: 20px;
+  margin: 15px;
+  font-size: 22px;
+  background-color: transparent;
+  border: 0.5px solid #ddd;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.icon {
+  color: rgb(222, 142, 57);
+  padding: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h5 {
+  padding: 10px 60px;
+  font-size: 32px;
+}
+
+.superhero p {
+  line-height: 1.5;
+  padding: 60px;
+  /* display: inline-block; */
+  display: inline-block;
+  width: 500px;
+}
+
+img {
+  /* padding-right: 100px;
+  padding-left: 80px; */
+  margin: auto;
+  width: 400px;
+  height: 400px;
+}
