@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arvo", serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 90%; */
+  padding: 10px;
+  background-color: darkgreen;
+  color: white;
+}
+
+.logo {
+  margin-right: 40px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 20px;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+button {
+  width: 100px;
+  height: 50px;
+  margin-right: 40px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.superhero {
+  width: 46%;
+  height: 45%;
+  line-height: 2rem;
+  margin: 30px;
+  text-align: justify;
+}
+
+.grandhero {
+  margin: 50px;
+}
+
+img {
+  width: 500px;
+  height: 400px;
+}
+
+.parent {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.child1 {
+  display: flex;
+}
