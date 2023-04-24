@@ -14,7 +14,7 @@ tekst.innerHTML = "<em>Da li se vidi paragraf?<em>";
 
 //  Za proveru tipa odredjene promenljive ili (varijable) se koristi typeof operator.
 
-// PRIMIR=TIVNI(VREDNOSNI) TIPOVI PODATAKA:
+// PRIMITIVNI(VREDNOSNI) TIPOVI PODATAKA:
 
 // 1. string - promenljiva koja je zapisana unutar navodnika (obicnih ili duplih);
 
@@ -31,8 +31,8 @@ console.log(56.56);
 
 // 3.BigInt - brojevi koji su iznad ogranicenja za number tip podatka.
 
-console.log(BigInt(566328695698326598326583));
-console.log(typeof BigInt(566328695698326598326583));
+console.log(BigInt(566328695698326598326583n));
+console.log(typeof BigInt(566328695698326598326583n));
 
 // 4. boolean - Logicki entitet koji ima dve vrednosti ;
 // true;
@@ -41,7 +41,7 @@ console.log(typeof BigInt(566328695698326598326583));
 console.log(true);
 console.log(typeof true);
 
-// 5. undefined - Promenljiva koja je definisana u memoriji ali joj nije dodeljena vrednsosti ima:
+// 5. undefined - Promenljiva koja je definisana u memoriji ali joj nije dodeljena vrednosti ima:
 // tip: undefied i
 // vrednost: undefied.
 
@@ -58,7 +58,7 @@ b = null;
 console.log(b);
 console.log(typeof b);
 
-// 7. Symbol - Koristi se za promenljive koje su anonimne ili jeinstvene.
+// 7. Symbol - Koristi se za promenljive koje su anonimne ili jedinstvene.
 
 c = Symbol("IT CAMP");
 console.log(c);
@@ -67,7 +67,7 @@ console.log(typeof c);
 // Svi tipovi koji nisu primitivni su tipa object.
 // Promenljive koje mogu sadrzati vise (od jedne) vrednosti su referentnog (neprimitivnog) tipa.
 
-// 1. Array (niz) - Struktura podataka za skladistenje vise vrednosti ( te vrednsoti mogu biti razlivitog tipa).
+// 1. Array (niz) - Struktura podataka za skladistenje vise vrednosti ( te vrednsoti mogu biti razlicitog tipa).
 
 niz = ["Emir, 21, true"];
 console.log(niz);
@@ -94,3 +94,5 @@ map = new Map([
   ["ananas", 289],
 ]);
 console.log(map);
+
+

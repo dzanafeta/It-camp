@@ -64,12 +64,12 @@ console.log(a);
 a *= 3;
 console.log(a);
 
-// /= Deljenje postojece vrednsoti sa odredjenim brojem:
+// /= Deljenje postojece vrednosti sa odredjenim brojem:
 
 a /= 3;
 console.log(a);
 
-//  %= Ostatak pri delejnju trenutne vrednosti za nekim brojem
+//  %= Ostatak pri deljenju trenutne vrednosti za nekim brojem
 a %= 2; //a = a % 2
 console.log(a);
 
