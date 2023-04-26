@@ -12,18 +12,19 @@ if (isNaN(broj)) {
 //(ii) ako je broj deljiv sa 5, potrebno je ispisati "BUZZ"
 //(iii) ako je broj deljiv i sa 3 i sa 5, potrebno je ispisati "FIZZ BUZZ", umesto tog broja.
 
-// for(let i = 1; i<101; i++){
-//     if ( i % 3 === 0 && i % 5 === 0){
-//         console.log ("FIZZ BUZZ");
-//     }
-//     if(i % 3 === 0){
-//         console.log("FIZZ");}
-//     else if (i % 5 === 0){
-//         console.log("BUZZ");
-//     } else if
-// }
-
 //3. Ispisati prva tri broja koja su deljiva sa 4 i 6.
+
+for (let i = 1; i < 101; i++) {
+  if (i % 3 === 0 && i % 5 === 0) {
+    console.log("FIZZ BUZZ");
+  } else if (i % 5 === 0) {
+    console.log("BUZZ");
+  } else if (i % 3 === 0) {
+    console.log("FIZZ");
+  } else {
+    console.log(i);
+  }
+}
 
 let brojac = 1;
 for (let i = 1; brojac < 4; i++) {
