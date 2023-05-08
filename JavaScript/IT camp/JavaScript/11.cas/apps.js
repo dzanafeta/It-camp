@@ -34,7 +34,7 @@ const recenica0 =
 console.log(recenica0.toLowerCase());
 console.log(recenica0.toLocaleUpperCase());
 
-//Ispisati novu rec gde ce svaka rec pocinjati velikim slovom.
+//Ispisati novu recenicu gde ce svaka rec pocinjati velikim slovom.
 const recenica3 =
   "treba nam nova recenica gde svaka nova rec pocinje velikim slovom";
 
@@ -48,3 +48,4 @@ for (let i = 0; i < recenica3.lenght; i++) {
     recenica4 += recenica3[i];
   }
 }
+console.log(recenica4);
