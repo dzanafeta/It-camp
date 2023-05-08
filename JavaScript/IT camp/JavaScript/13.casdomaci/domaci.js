@@ -9,32 +9,31 @@
 
 function ZbirKvadrataDvaBroja(_br1, _br2) {
   if (_br2 === undefined) {
-    return _br1;
+    return Math.pow(_br1, 2);
   } else {
-    return Math.pow(_br1, _br2);
+    return Math.pow(_br1, 2) + Math.pow(_br2, 2);
   }
 }
 console.log(Math.pow(3, 4));
-ZbirKvadrataDvaBroja("Kvadrat dva broja");
 
 // 2.
 
 function myFunc(_num1 = 0, _num2 = 0, _num3 = 0) {
-  const sum = a + b + c;
+  const sum = _num1 + _num2 + _num3;
   const mean = sum / 3;
   return mean;
 }
-console.log((3, 5, 15));
+console.log(myFunc(3, 5, 15));
 
 // 3.
 function povrsine(_br3, _br4) {
   if (_br3 !== _br4) {
-    return (_br3 *= _br4);
+    return _br3 * _br4;
   } else {
-    return Math.pow(_br3, _br4);
+    return _br3 * _br4;
   }
 }
 
 console.log(povrsine(7, 8));
-console.log(Math.pow(7, 8));
+console.log(povrsine(4, 9));
 povrsine();
