@@ -35,5 +35,5 @@ function povrsine(_br3, _br4) {
 }
 
 console.log(povrsine(7, 8));
-console.log(povrsine(4, 9));
+console.log(povrsine(4, 4));
 povrsine();
