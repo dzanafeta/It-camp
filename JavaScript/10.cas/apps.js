@@ -27,7 +27,7 @@
 console.log(recenica[0]);
 console.log(recenica[7]);
 
-// //Za izracunavanje duzine stringa se koristi lenght metoda:
+// //Za izracunavanje duzine stringa se koristi length metoda:
 // const duzina = recenica.length;
 // console.log(duzina);
 // //Ispisivanje poslednjeg karaktera datog stringa:

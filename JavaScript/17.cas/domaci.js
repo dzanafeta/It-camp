@@ -42,6 +42,8 @@ console.log(first());
 const second = (recenica, rec) => recenica.replace(rec, "#");
 console.log(second("Danas je lep dan", "lep"));
 
+// 3.zadatak
+
 const third = (recenica) => {
   let brojac = 0;
   for (let i = 0; i < recenica.length; i++) {
