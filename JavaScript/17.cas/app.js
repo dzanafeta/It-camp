@@ -31,5 +31,5 @@ var string1 = "Hello";
 var string2 = "World!";
 var concatenatedString = concatenateStrings(string1, string2);
 console.log(concatenatedString);
-/*Danas je lep da
+/*Danas je lep dan
 i mislim da ce i sutra biti*/
