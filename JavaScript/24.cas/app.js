@@ -52,3 +52,4 @@ console.log(z === w);
 
 let broj = 0xff;
 console.log(broj);
+1;
