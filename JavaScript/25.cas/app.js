@@ -38,3 +38,39 @@ console.log(bolji(50, 50, 45, 45));
 console.log(bolji(23, 32, 32, 22));
 
 //Domaci:
+// 1.
+// a=int(input('Unesite prvu potencijalnu stranicu pravougaonika: '))
+// b=int(input('Unesite drugu potencijalnu stranicu pravougaonika: '))
+// c=int(input('Unesite trecu potencijalnu stranicu pravougaonika: '))
+// d=int(input('Unesite cetvrtu potencijalnu stranicu pravougaonika: '))
+
+// 2. Unesite broj sekundi koji zelite pretvoriti u sate, minute i sekunde:
+
+// 1 sat ima 60 minuta
+// 1 sat ima 60*60 = 3600 sekundi
+// 1 minut ima 60 sekundi
+
+// 1.
+const recenica1 = +prompt("Unesite prvu potencijalnu stranicu pravougaonika: ");
+const recenica2 = +prompt(
+  "Unesite drugu potencijalnu stranicu pravougaonika: "
+);
+const recenica3 = +prompt(
+  "Unesite trecu potencijalnu stranicu pravougaonika: "
+);
+const recenica4 = +prompt(
+  "Unesite cetvrtu potencijalnu stranicu pravougaonika: "
+);
+
+function pravougaonik(a, b, c, d) {
+  let stranice1 = a + b;
+  let stranice2 = c + d;
+
+  if (a === b && c === d) {
+    console.log("Uneli ste odgovarajuce mere");
+  }
+}
+//   } else if (stranice1 !== stranice2) {
+//     return;
+//   }
+// }
