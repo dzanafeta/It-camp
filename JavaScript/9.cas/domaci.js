@@ -65,3 +65,8 @@ if (brojj1 < brojj2) {
 } else {
   console.log("Uneli ste iste brojeve.");
 }
+
+const NZS = (br1, br2) => {
+  const veci = br1 > br2 ? br1 : br2;
+  let NZS = veci;
+};
