@@ -19,7 +19,13 @@ console.log(NZD(8, 12));
 // Write a JS function to get a greatest common divisior (NZS) of two integers.
 
 const NZS = (br1, br2) => {
-  const veci = br1 > br2 ? br1 : br2;
+  let veci;
+  if (br1 > br2) {
+    veci = br1;
+  } else {
+    veci = br2;
+  }
+  // const veci = br1 > br2 ? br1 : br2;
   let NZS = veci;
   let i = veci;
   while (true) {
