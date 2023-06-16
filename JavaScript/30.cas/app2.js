@@ -71,3 +71,17 @@ console.log(razlikaDatum);
 
 const dana = razlika / 1000 / 60 / 60 / 24;
 console.log(dana);
+
+// Napraviti funkciju koja racuna razliku u danima izmedju sledeca dva datuma:
+// "1999-05-24" i "2004-09-15"
+
+function razlikaUDanima(prviDatum, drugiDatum) {
+  const Brojdana = Date.parse(prviDatum);
+  const Brojdana2 = Date.parse(drugiDatum);
+  const razlika1 = drugiDatum - prviDatum;
+  // const razlikaDatum1 = new Date(razlika1);
+  const dana1 = razlika1 / 1000 / 60 / 60 / 24;
+  return dana1;
+}
+console.log(razlikaUDanima(new Date(2020, 2, 5), new Date(2020, 2, 29)));
+console.log(razlikaUDanima(new Date(1999, 5, 24), new Date(2004, 9, 15)));
