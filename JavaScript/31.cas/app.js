@@ -124,28 +124,29 @@ console.log(getDaysInMonth(2, 2012));
 console.log(getDaysInMonth(9, 2012));
 console.log(getDaysInMonth(12, 2012));
 
-// Write a JavaScript function to get the month name from a particular date
+// Write a JavaScript function to get the month name from a particular date.
 
-// ("2023 -05-22");
+("2023-05-22");
 
-// const getTheMonthName = (string) => {
-//   const meseci = [
-//     "Januar",
-//     "Februar",
-//     "Mart",
-//     "April",
-//     "Maj",
-//     "Jun",
-//     "Jul",
-//     "Avgust",
-//     "Septembar",
-//     "Oktobar",
-//     "Novembar",
-//     "Decemabr",
-//   ];
-//   const date = new Date(string);
-//   const month = date.getMonth();
-//   return months[month];
-// };
+const getMONTH = (string) => {
+  const months = [
+    "Januar",
+    "Februar",
+    "Mart",
+    "April",
+    "Maj",
+    "Jun",
+    "Jul",
+    "Avgust",
+    "Septembar",
+    "Oktobar",
+    "Novembar",
+    "Decembar",
+  ];
+  const date = new Date(string);
+  const month = date.getMonth();
+  return months[month];
+};
+console.log(getMONTH("2023-01-22"));
 
-// console.log(getTheMonthName("2023-01-22"));
+// Write a JavaScript program to calculate age.
