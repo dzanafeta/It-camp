@@ -17,7 +17,7 @@ const fruits = ["strawberry", "pineapple", "orange"];
 fruits.push("pear");
 console.log(fruits);
 
-console.log(fruits.push("mango", "apple", "banana")); //push predtsavlja duzinu niza sa novim elementima.
+console.log(fruits.push("mango", "apple", "banana")); //push predstavlja duzinu niza sa novim elementima.
 console.log(fruits);
 
 //pop() metoda brise poslednji element niza.
@@ -33,7 +33,7 @@ console.log(fruits);
 
 //unshift() metoda dodaje element (vise elemenata) na pocetku niza.
 
-fruits.unshift("peach", "watemalon");
+fruits.unshift("peach", "watermalon");
 console.log(fruits);
 
 //delete metoda brise odredjeni element niza.
