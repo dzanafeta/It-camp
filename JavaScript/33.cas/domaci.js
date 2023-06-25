@@ -15,24 +15,48 @@ const nizz = [
   "tresnja",
 ];
 
-let numString = 0;
-let numNumber = 0;
-let numBoolean = 0;
-let numArray = 0;
-for (let item of nizz) {
-  if (typeof item === "string") {
-    numString++;
-  } else if (typeof item === "number") {
-    numNumber++;
-  } else if (typeof item === "boolean") {
-    numBoolean++;
-  } else if (Array.isArray(item)) {
-    numArray++;
+// let numString = 0;
+// let numNumber = 0;
+// let numBoolean = 0;
+// let numArray = 0;
+// for (let item of nizz) {
+//   if (typeof item === "string") {
+//     numString++;
+//   } else if (typeof item === "number") {
+//     numNumber++;
+//   } else if (typeof item === "boolean") {
+//     numBoolean++;
+//   } else if (Array.isArray(item)) {
+//     numArray++;
+//   }
+// }
+// console.log(
+//   `U nizu ima ${numString} elemenata tipa string, \n
+// ${numNumber} elemenata tipa number, \n
+// ${numBoolean} elemenata tipa boolean i \n
+// ${numArray} nizova.`
+// );
+
+function tipovi(niz) {
+  let numString = 0;
+  let numNumber = 0;
+  let numBoolean = 0;
+  let numArray = 0;
+  for (let item of niz) {
+    if (typeof item === "string") {
+      numString++;
+    } else if (typeof item === "number") {
+      numNumber++;
+    } else if (typeof item === "boolean") {
+      numBoolean++;
+    } else if (Array.isArray(item)) {
+      numArray++;
+    }
   }
-}
-console.log(
-  `U nizu ima ${numString} elemenata tipa string, \n
+  return `U nizu ima ${numString} elemenata tipa string, \n
 ${numNumber} elemenata tipa number, \n
 ${numBoolean} elemenata tipa boolean i \n
-${numArray} nizova.`
-);
+${numArray} nizova.`;
+}
+
+console.log(tipovi([12, 56, true, [], "fruit"]));
